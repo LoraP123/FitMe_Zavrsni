@@ -1,0 +1,51 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:context=".HomeFragment">
+
+        <LinearLayout
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="70dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/text_about_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="O Aplikaciji FitMe"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/logo2"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:id="@+id/text_about_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FitMe je aplikacija koja vam omogućava da istražite širok spektar vježbi za različite mišićne skupine i da pronađete zdrave recepte koji će podržati vaš zdrav način života. Naš cilj je da vas inspiriramo i motiviramo da postignete svoje fitness ciljeve kroz jednostavne, ali efikasne savjete i vježbe. Uživajte u istraživanju naše aplikacije i započnite svoj put ka zdravijem i aktivnijem životu."
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+

@@ -1,0 +1,180 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipesFragment">
+
+    <LinearLayout
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:paddingBottom="70dp">
+
+        <!-- Doručak Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_bre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/image_bre"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/food5"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/text_bre"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Doručak"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:padding="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Ručak Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_lun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/text_lun"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ručak"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="16dp" />
+
+                <ImageView
+                    android:id="@+id/image_lun"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/food3"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Užina Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_sna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/image_sna"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/food1"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/text_sna"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Užina"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="16dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Večera Card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_din"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/text_din"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Večera"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:padding="16dp" />
+
+                <ImageView
+                    android:id="@+id/image_din"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/food4"
+                    android:scaleType="centerCrop" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

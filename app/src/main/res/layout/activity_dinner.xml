@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DinnerActivity">
+
+    <LinearLayout
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <!-- Recept 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Slika -->
+                <ImageView
+                    android:id="@+id/image_recept11111"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/din1"
+                    android:scaleType="centerCrop" />
+
+                <!-- Opis recepta -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Naziv recepta -->
+                    <TextView
+                        android:id="@+id/naziv_recept11111"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Losos s rižom i povrćem"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp" />
+
+                    <!-- Opis recepta -->
+                    <TextView
+                        android:id="@+id/opis_recepta1111"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sastojci:
+\n - Fileti svježeg lososa
+\n - Bijela ili smeđa riža
+\n - Svježe povrće po izboru
+\n - Maslinovo ulje ili biljno ulje
+\n - Sol i papar po ukusu
+\n - Limun (za sok i koricu)
+\n - Češnjak, sitno nasjeckan
+\n - Svježi peršin ili korijander"
+                        android:textSize="14sp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Recept 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Slika -->
+                <ImageView
+                    android:id="@+id/image_recept33333"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/din3"
+                    android:scaleType="centerCrop" />
+
+                <!-- Opis recepta -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Naziv recepta -->
+                    <TextView
+                        android:id="@+id/naziv_recept33333"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Špageti s kozicama"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp" />
+
+                    <!-- Opis recepta -->
+                    <TextView
+                        android:id="@+id/opis_recepta33333"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sastojci:
+\n - Špageti
+\n - Kozice
+\n - Maslinovo ulje
+\n - Češnjak, sitno nasjeckan
+\n - Cherry rajčice, prepolovljene
+\n - Svježi peršin, nasjeckan
+\n - Sok od limuna
+\n - Crvena paprika u prahu"
+
+                        android:textSize="14sp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Slika -->
+                <ImageView
+                    android:id="@+id/image_recept22222"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/din2"
+                    android:scaleType="centerCrop" />
+
+                <!-- Opis recepta -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Naziv recepta -->
+                    <TextView
+                        android:id="@+id/naziv_recept2222"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tortilje s piletinom"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp" />
+
+                    <!-- Opis recepta -->
+                    <TextView
+                        android:id="@+id/opis_recepta22222"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sastojci:
+\n - Tortilje
+\n - Kuhana pileća prsa, narezana na komade ili trakice
+\n - Svježe povrće po izboru
+\n - Svježi sir
+\n - Umak od salse ili guacamole
+\n - Začini po ukusu
+\n - Limeta ili limun"
+                        android:textSize="14sp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
