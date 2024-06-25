@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkoutFragment">
+
+    <LinearLayout
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="70dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+            <ImageView
+                android:id="@+id/image_abs"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/abs"
+                android:scaleType="fitXY"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/text_abs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trbušni mišići"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="16dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+            <ImageView
+                android:id="@+id/image_arms"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/arms"
+                android:scaleType="fitXY"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/text_arms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mišići ruke"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="16dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/back"
+                android:scaleType="fitXY"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/text_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Leđni mišići"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="16dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+            <ImageView
+                android:id="@+id/image_legs"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/legs"
+                android:scaleType="fitXY"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/text_legs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nožni mišići"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="16dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

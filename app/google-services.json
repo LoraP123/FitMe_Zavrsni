@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "386106939601",
+    "project_id": "programsko-inzenjerstvo-7aeab",
+    "storage_bucket": "programsko-inzenjerstvo-7aeab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386106939601:android:9e62f621a4437873e50df0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN_DmPa4JyVXk7WPCyStIsHjAWFw764Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

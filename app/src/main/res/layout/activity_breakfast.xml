@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BackActivity">
+
+    <LinearLayout
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <!-- Recept 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Slika -->
+                <ImageView
+                    android:id="@+id/image_recept1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/dor1"
+                    android:scaleType="centerCrop" />
+
+                <!-- Opis recepta -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Naziv recepta -->
+                    <TextView
+                        android:id="@+id/naziv_recept1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tost s Avokadom i Jajem"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp" />
+
+                    <!-- Opis recepta -->
+                    <TextView
+                        android:id="@+id/opis_recepta1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sastojci:\n- 2 kriške kruha po želji (najbolje je koristiti kruh od cijelog zrna ili sjemenki)\n- 1 zreli avokado\n- 2 jaja\n- Sol i papar po ukusu\n- Svježe nasjeckani peršin"
+                        android:textSize="14sp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Recept 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Slika -->
+                <ImageView
+                    android:id="@+id/image_recept3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/dor3"
+                    android:scaleType="centerCrop" />
+
+                <!-- Opis recepta -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Naziv recepta -->
+                    <TextView
+                        android:id="@+id/naziv_recept3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tortilje s tunom"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp" />
+
+                    <!-- Opis recepta -->
+                    <TextView
+                        android:id="@+id/opis_recepta3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sastojci:
+\n- 4 tortilje
+\n- 1 konzerva tune u vodi, ocijeđena
+\n- 1 crveni luk, sitno nasjeckan
+\n- 1 rajčica, narezana na male kockice
+\n- 1/2 crvene paprike, narezane na male kockice
+\n- 1/4 šalice majoneze
+\n- 1/2 limuna, sok
+\n- Sol po ukusu
+"
+                        android:textSize="14sp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Slika -->
+                <ImageView
+                    android:id="@+id/image_recept2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/dor2"
+                    android:scaleType="centerCrop" />
+
+                <!-- Opis recepta -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Naziv recepta -->
+                    <TextView
+                        android:id="@+id/naziv_recept2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kajgana sa špinatom"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp" />
+
+                    <!-- Opis recepta -->
+                    <TextView
+                        android:id="@+id/opis_recepta2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sastojci:
+\n- 4 jaja
+\n- 2 šalice svježeg špinata, opranog i narezanog
+\n- 1/4 šalice sjeckanog crvenog luka
+\n- 1 češanj češnjaka, sitno nasjeckan
+\n- 2 žlice maslinovog ulja ili maslaca
+\n- Sol po ukusu
+\n- Crni papar po ukusu"
+                        android:textSize="14sp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

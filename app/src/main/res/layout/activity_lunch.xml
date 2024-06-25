@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LunchActivity">
+
+    <LinearLayout
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <!-- Recept 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Slika -->
+                <ImageView
+                    android:id="@+id/image_recept111"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/lun1"
+                    android:scaleType="centerCrop" />
+
+                <!-- Opis recepta -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Naziv recepta -->
+                    <TextView
+                        android:id="@+id/naziv_recept111"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Poke bowl s piletinom"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp" />
+
+                    <!-- Opis recepta -->
+                    <TextView
+                        android:id="@+id/opis_recepta11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sastojci:
+\n - Kuhana piletina, narezana na komade
+\n - Smeđa ili bijela riža
+\n - Avokado, narezan na kriške
+\n - Krastavci, narezani na tanke kolutove
+\n - Mrkva, naribana
+\n - Crveni kupus, narezan na trakice
+\n - Umak od soje ili umak od ponzu (za preljev)
+\n - Limeta ili limun za posluživanje (po želji)"
+                        android:textSize="14sp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Recept 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Slika -->
+                <ImageView
+                    android:id="@+id/image_recept333"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/lun3"
+                    android:scaleType="centerCrop" />
+
+                <!-- Opis recepta -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Naziv recepta -->
+                    <TextView
+                        android:id="@+id/naziv_recept333"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Riža s piletinom limetom"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp" />
+
+                    <!-- Opis recepta -->
+                    <TextView
+                        android:id="@+id/opis_recepta333"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sastojci:
+\n- Kuhana pileća prsa, narezana na komade
+\n - Bijela ili smeđa riža
+\n - Svježe limete (za sok i koricu)
+\n - Češnjak, sitno nasjeckan
+\n - Maslinovo ulje ili biljno ulje
+\n - Sol i papar po ukusu"
+                        android:textSize="14sp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Slika -->
+                <ImageView
+                    android:id="@+id/image_recept222"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/lun2"
+                    android:scaleType="centerCrop" />
+
+                <!-- Opis recepta -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Naziv recepta -->
+                    <TextView
+                        android:id="@+id/naziv_recept222"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pašta s pestom"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp" />
+
+                    <!-- Opis recepta -->
+                    <TextView
+                        android:id="@+id/opis_recepta222"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sastojci:
+\n- Pašta po želji
+\n - Pesto umak (možete kupiti gotov ili pripremiti domaći)
+\n - Svježi bosiljak (za domaći pesto)
+\n - Maslinovo ulje (za domaći pesto)
+\n - Parmezan ili drugi tvrdi sir (za domaći pesto)
+\n - Češnjak (za domaći pesto)
+\n - Pinjoli ili bademi (za domaći pesto)
+\n - Sol i papar po ukusu"
+                        android:textSize="14sp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
