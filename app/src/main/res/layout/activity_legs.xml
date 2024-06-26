@@ -36,7 +36,7 @@
                     android:id="@+id/legs1_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Opis vježbe 1"
+                    android:text="Može se izvoditi bez utega. Fokusirajte se na to da prste na nogama usmjerite prema van i postavite ih izvan širine ramena. Čučnite do paralele prije nego što se vratite u uspravan položaj."
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:paddingBottom="10dp" />
@@ -72,7 +72,7 @@
                     android:id="@+id/legs2_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Opis vježbe 2"
+                    android:text="Ove vježbe ciljaju cijelu nogu i mogu biti prilično izazovne za održavanje ravnoteže u početku. Držanje nečega pomaže, stoga pokušajte pronaći par bučica ili nešto s težinom (punih limenki graha i slično). Fokusirajte se na to da donja noga dosegne kut od 90 stupnjeva prije nego što se vratite u uspravan položaj. "
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:paddingBottom="10dp" />
@@ -109,7 +109,7 @@
                     android:id="@+id/legs3_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Opis vježbe 3"
+                    android:text="Ovo se može izvesti bez šipke, samo se protegnite prema dolje bez utega i vratite se natrag. Zapamtite držati leđa ravno i izbjegavati savijanje donjeg dijela leđa!"
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:paddingBottom="10dp" />
@@ -145,7 +145,7 @@
                     android:id="@+id/legs4_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Opis vježbe 4"
+                    android:text="Hip thrust je vježba koja cilja jačanje i oblikovanje stražnjice. Izvodi se tako da ležite na podu s leđima naslonjenim na klupu ili drugu potporu. Kukovima podižete tijelo prema gore dok su koljena savijena pod kutom od 90 stupnjeva. Zatim se spuštate natrag prema početnom položaju. Ova vježba naglašava rad glutealnih mišića i pomaže u poboljšanju snage i stabilnosti u donjem dijelu tijela."
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:paddingBottom="10dp" />
@@ -181,7 +181,7 @@
                     android:id="@+id/legs5_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Opis vježbe 5"
+                    android:text="Leg press je vježba koja se izvodi na posebnom stroju za leg press. Osoba sjedi na sjedalu i postavlja noge na ploču za guranje koja se nalazi ispred njih. Zatim guraju ploču nogama tako da se koljena savijaju i opružaju."
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:paddingBottom="10dp" />
@@ -217,7 +217,7 @@
                     android:id="@+id/legs6_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Opis vježbe 6"
+                    android:text="Leg extension je vježba koja se izvodi na posebnom stroju za leg extension. Osoba sjedi na stolici s leđima naslonjenim i nogama savijenim pod kutem od 90 stupnjeva. Zatim podiže noge prema naprijed dok se koljeno potpuno ne ispravi, čime se aktivira kvadriceps."
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:paddingBottom="10dp" />
