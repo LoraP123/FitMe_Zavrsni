@@ -50,7 +50,7 @@
                         android:layout_height="wrap_content"
                         android:text="Poke bowl s piletinom"
                         android:textStyle="bold"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="16dp" />
 
                     <!-- Opis recepta -->
@@ -67,7 +67,7 @@
 \n - Crveni kupus, narezan na trakice
 \n - Umak od soje ili umak od ponzu (za preljev)
 \n - Limeta ili limun za posluživanje (po želji)"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"/>
 
@@ -112,7 +112,7 @@
                         android:layout_height="wrap_content"
                         android:text="Riža s piletinom limetom"
                         android:textStyle="bold"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="16dp" />
 
                     <!-- Opis recepta -->
@@ -127,7 +127,7 @@
 \n - Češnjak, sitno nasjeckan
 \n - Maslinovo ulje ili biljno ulje
 \n - Sol i papar po ukusu"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"/>
 
@@ -170,7 +170,7 @@
                         android:layout_height="wrap_content"
                         android:text="Pašta s pestom"
                         android:textStyle="bold"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="16dp" />
 
                     <!-- Opis recepta -->
@@ -187,7 +187,7 @@
 \n - Češnjak (za domaći pesto)
 \n - Pinjoli ili bademi (za domaći pesto)
 \n - Sol i papar po ukusu"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"/>
 

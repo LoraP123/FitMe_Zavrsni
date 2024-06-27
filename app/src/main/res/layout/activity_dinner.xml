@@ -50,7 +50,7 @@
                         android:layout_height="wrap_content"
                         android:text="Losos s rižom i povrćem"
                         android:textStyle="bold"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="16dp" />
 
                     <!-- Opis recepta -->
@@ -67,7 +67,7 @@
 \n - Limun (za sok i koricu)
 \n - Češnjak, sitno nasjeckan
 \n - Svježi peršin ili korijander"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"/>
 
@@ -112,7 +112,7 @@
                         android:layout_height="wrap_content"
                         android:text="Špageti s kozicama"
                         android:textStyle="bold"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="16dp" />
 
                     <!-- Opis recepta -->
@@ -130,7 +130,7 @@
 \n - Sok od limuna
 \n - Crvena paprika u prahu"
 
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"/>
 
@@ -173,7 +173,7 @@
                         android:layout_height="wrap_content"
                         android:text="Tortilje s piletinom"
                         android:textStyle="bold"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="16dp" />
 
                     <!-- Opis recepta -->
@@ -189,7 +189,7 @@
 \n - Umak od salse ili guacamole
 \n - Začini po ukusu
 \n - Limeta ili limun"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"/>
 

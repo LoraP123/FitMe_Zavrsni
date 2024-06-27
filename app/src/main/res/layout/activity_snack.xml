@@ -50,7 +50,7 @@
                         android:layout_height="wrap_content"
                         android:text="Grčki jogurt s voćem"
                         android:textStyle="bold"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="16dp" />
 
                     <!-- Opis recepta -->
@@ -63,7 +63,7 @@
 \n - Svježe sezonsko voće po izboru (npr. jagode, borovnice, maline, banane, kivi, breskve)
 \n - Med ili agavin sirup za slatkoću (opcionalno)
 \n - Granola ili orašasti plodovi (za dodatnu hrskavost, opcionalno)"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"/>
 
@@ -108,7 +108,7 @@
                         android:layout_height="wrap_content"
                         android:text="Voćna salata"
                         android:textStyle="bold"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="16dp" />
 
                     <!-- Opis recepta -->
@@ -121,7 +121,7 @@
 \n - Sok od limuna ili limete (za prevenciju oksidacije voća)
 \n - Med, agavin sirup ili javorov sirup"
 
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"/>
 
@@ -164,7 +164,7 @@
                         android:layout_height="wrap_content"
                         android:text="Palačinke od banana"
                         android:textStyle="bold"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:padding="16dp" />
 
                     <!-- Opis recepta -->
@@ -181,7 +181,7 @@
 \n - 1 jaje
 \n - 3/4 šalice mlijeka
 \n - 1 žlica rastopljenog maslaca ili ulja"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:paddingStart="16dp"
                         android:paddingEnd="16dp"/>
 
