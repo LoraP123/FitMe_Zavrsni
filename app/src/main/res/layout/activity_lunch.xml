@@ -16,7 +16,6 @@
         android:paddingTop="10dp"
         android:paddingBottom="10dp">
 
-        <!-- Recept 1 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,7 +28,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <!-- Slika -->
                 <ImageView
                     android:id="@+id/image_recept111"
                     android:layout_width="150dp"
@@ -37,13 +35,12 @@
                     android:src="@drawable/lun1"
                     android:scaleType="centerCrop" />
 
-                <!-- Opis recepta -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <!-- Naziv recepta -->
+
                     <TextView
                         android:id="@+id/naziv_recept111"
                         android:layout_width="match_parent"
@@ -53,7 +50,6 @@
                         android:textSize="20sp"
                         android:padding="16dp" />
 
-                    <!-- Opis recepta -->
                     <TextView
                         android:id="@+id/opis_recepta11"
                         android:layout_width="match_parent"
@@ -77,8 +73,6 @@
 
         </androidx.cardview.widget.CardView>
 
-
-        <!-- Recept 2 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -91,7 +85,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <!-- Slika -->
                 <ImageView
                     android:id="@+id/image_recept333"
                     android:layout_width="150dp"
@@ -99,13 +92,11 @@
                     android:src="@drawable/lun3"
                     android:scaleType="centerCrop" />
 
-                <!-- Opis recepta -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <!-- Naziv recepta -->
                     <TextView
                         android:id="@+id/naziv_recept333"
                         android:layout_width="match_parent"
@@ -115,7 +106,6 @@
                         android:textSize="20sp"
                         android:padding="16dp" />
 
-                    <!-- Opis recepta -->
                     <TextView
                         android:id="@+id/opis_recepta333"
                         android:layout_width="match_parent"
@@ -149,7 +139,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <!-- Slika -->
                 <ImageView
                     android:id="@+id/image_recept222"
                     android:layout_width="150dp"
@@ -157,13 +146,11 @@
                     android:src="@drawable/lun2"
                     android:scaleType="centerCrop" />
 
-                <!-- Opis recepta -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <!-- Naziv recepta -->
                     <TextView
                         android:id="@+id/naziv_recept222"
                         android:layout_width="match_parent"
@@ -173,7 +160,6 @@
                         android:textSize="20sp"
                         android:padding="16dp" />
 
-                    <!-- Opis recepta -->
                     <TextView
                         android:id="@+id/opis_recepta222"
                         android:layout_width="match_parent"
